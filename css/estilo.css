@@ -1,0 +1,92 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    height: 400px;
+    border-bottom: solid rgb(22, 22, 22) 3px;
+}
+
+.bg-dw {
+    background-image: url(../img/dw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    transition: background-image 0.2s ease-in;
+}
+
+
+.bg-dw:hover {
+    background-image: url(../img/dw-hover.jpg);
+    cursor: pointer;
+}
+
+.bg-dw:active {
+    background-image: url(../img/dw-hover.jpg);
+    cursor: pointer;
+}
+
+.bg-ilus {
+    background-image: url(../img/ilus.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    transition: background-image 0.2s ease-in;
+}
+
+.bg-ilus:hover {
+    background-image: url(../img/ilus-hover.jpg);
+    cursor: pointer;
+}
+
+.bg-ilus:active {
+    background-image: url(../img/ilus-hover.jpg);
+    cursor: pointer;
+}
+
+.bg-3d {
+    background-image: url(../img/3d.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    transition: background-image 0.2s ease-in;
+}
+
+.bg-3d:hover {
+    background-image: url(../img/3d-hover.jpg);
+    cursor: pointer;
+}
+
+.bg-3d:active {
+    background-image: url(../img/3d-hover.jpg);
+    cursor: pointer;
+}
+
+.footer-img {
+    border: 5px solid rgb(26, 26, 26);
+    width: 20%;
+}
+
+.icon-footer {
+    width: 5%;
+    transition: filter 0.2s ease-in;
+}
+
+.icon-footer:hover {
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.7));
+    cursor: pointer;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+    border: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
